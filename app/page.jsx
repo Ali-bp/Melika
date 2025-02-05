@@ -1,7 +1,11 @@
-'use client'
 import '@/styles/melika.css'
 
-export default function Melika() {
+export const metadata = {
+    title: 'Melika Links',
+    description: 'Melika Links'
+}
+
+export default async function Melika() {
 
     return (
         <div className='page'>
