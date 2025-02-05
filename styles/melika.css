@@ -1,0 +1,140 @@
+.page {
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(157, 155, 155) 0%, black 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.heading img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid ;    
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+.bread {
+    border: 2px solid rgb(237, 235, 235);
+    border-radius: 100px;
+    display: flex;
+    padding: 10px 60px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+
+.button {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+
+
+
+}
+
+.youtube:hover {
+    background-color: rgb(230, 9, 9);
+    color: white;
+}
+
+.telegram:hover {
+    background-color: rgb(56, 172, 230);
+}
+
+.instagram:hover {
+    background: linear-gradient(to left, #9513b9 0%, #a0076d 100%);
+}
+
+/* 
+.telegram-bread {
+    border: 2px solid white;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.telegram-bread:hover {
+    background-color: rgb(56, 172, 230);
+
+
+}
+
+.telegram-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.telegram {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.instagram-bread {
+    border: 2px solid white;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.instagram-bread:hover {
+    background: linear-gradient(to left, #9513b9 0%, #a0076d 100%);
+}
+
+
+.instagram-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.instagram {
+    font-size: 30px;
+    font-weight: bold;
+
+} */
