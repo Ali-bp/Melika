@@ -1,0 +1,81 @@
+.text{
+    color: black;
+    font-size: 60px;
+
+}
+
+.about{
+    color: black;
+    font-size: 30px;
+    
+
+}
+
+.button{
+    color: black;
+    font-size: 25px;
+
+    border: 2px solid green;
+    background-color: aqua;
+    height: 6vh;
+    width: 30vh;
+
+
+}
+
+.menu{
+    color: black;
+    border: 2px solid ;
+
+}
+
+.click{
+    color: black;
+    border: 2px solid black;
+    font-size: 30px;
+    width: 70vh;
+    
+
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    
+    
+    
+}
+
+
+
+
+
+.flexd-container {
+    display: flex;
+    background-color: DodgerBlue;
+    border: 2px solid black;
+    left: 2px;
+    width: 212px;
+    padding: 4px;
+    gap: 30px;
+
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    margin: 0;
+    
+  
+
+}
+.border-conyainer {
+border: 2px solid black;
+display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 50vh; 
+  text-align: center;
+  gap: 50px;
+
+}
